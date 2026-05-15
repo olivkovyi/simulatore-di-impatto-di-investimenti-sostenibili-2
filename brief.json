@@ -1,0 +1,304 @@
+{
+  "run_id": "run-1778805800831",
+  "job_index": 2,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 3,
+    "archetype": "calculator",
+    "market": "France",
+    "language": "it",
+    "country": "IT",
+    "brief": "Verifica come i tuoi investimenti contribuiscono a un futuro più verde e al contempo generano profitto.",
+    "notes": "Simula l'impatto finanziario e ambientale di diversi portafogli di investimento sostenibili, con focus su aziende francesi ed europee.\nPermette di confrontare KPI finanziari (ROI, volatilità) con metriche ESG (emissioni CO2, impatto sociale).",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "generator",
+      "calculator",
+      "tool"
+    ],
+    "forced_design_theme": "mechanical-botanical",
+    "forced_structure_preset": "split-command",
+    "site_idea_title": "Simulatore di Impatto di Investimenti Sostenibili",
+    "site_idea_summary": "Simula l'impatto finanziario e ambientale di diversi portafogli di investimento sostenibili, con focus su aziende francesi ed europee."
+  },
+  "site_spec": {
+    "slug": "simulatore-di-impatto-di-investimenti-sostenibili-2",
+    "theme": {
+      "name": "Mechanical Botanical",
+      "slug": "mechanical-botanical",
+      "eyebrow": "Organic Systems",
+      "family": "mechanical-botanical",
+      "moods": [
+        "organic",
+        "futuristic",
+        "balanced",
+        "fresh"
+      ],
+      "archetypes": [
+        "tool",
+        "generator",
+        "calculator"
+      ],
+      "niches": [
+        "eco tools",
+        "wellness tools",
+        "sustainability",
+        "travel tools",
+        "consumer utility"
+      ],
+      "keywords": [
+        "organic",
+        "tech",
+        "botanical",
+        "iridescent",
+        "fresh"
+      ],
+      "token_index": [
+        "balanced",
+        "botanical",
+        "calculator",
+        "consumer",
+        "eco",
+        "fresh",
+        "futuristic",
+        "generator",
+        "iridescent",
+        "mechanical",
+        "organic",
+        "sustainability",
+        "systems",
+        "tech",
+        "tool",
+        "tools",
+        "travel",
+        "utility",
+        "wellness"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap",
+      "display_font": "\"Sora\", sans-serif",
+      "body_font": "\"Manrope\", sans-serif",
+      "layout": "split",
+      "card_style": "glass",
+      "button_style": "gradient",
+      "decor_style": "orbs",
+      "hero_template": "1.08fr 0.92fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 3,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "22px",
+      "palette": {
+        "bg": "linear-gradient(145deg, #081c15 0%, #1b4332 42%, #c7f9cc 100%)",
+        "surface": "rgba(8, 28, 21, 0.74)",
+        "surface_border": "rgba(128,237,153,0.18)",
+        "text": "#f1fff4",
+        "muted": "#b7e4c7",
+        "accent": "#80ed99",
+        "accent_alt": "#72ddf7",
+        "hero_glow": "rgba(128, 237, 153, 0.18)",
+        "button_text": "#062012",
+        "panel_alt": "rgba(255,255,255,0.04)",
+        "shadow": "0 30px 88px rgba(4, 12, 8, 0.34)",
+        "input_fill": "rgba(255,255,255,0.05)"
+      }
+    },
+    "structure": {
+      "name": "Split Command",
+      "slug": "split-command",
+      "hero_variant": "split",
+      "proof_variant": "metrics",
+      "section_order": [
+        "features",
+        "proof",
+        "faq",
+        "seo"
+      ],
+      "feature_columns": 3,
+      "faq_columns": 3,
+      "family": "hero-first",
+      "moods": [
+        "clean",
+        "balanced",
+        "conversion"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "general utility",
+        "comparison",
+        "services"
+      ],
+      "keywords": [
+        "hero",
+        "conversion",
+        "balanced",
+        "operator"
+      ],
+      "token_index": [
+        "balanced",
+        "calculator",
+        "clean",
+        "command",
+        "comparison",
+        "conversion",
+        "faq",
+        "features",
+        "first",
+        "general",
+        "generator",
+        "hero",
+        "metrics",
+        "operator",
+        "proof",
+        "seo",
+        "services",
+        "split",
+        "tool",
+        "utility"
+      ]
+    },
+    "render_direction": "signal-bento",
+    "render_direction_name": "Signal Bento",
+    "page_blueprint": "signal-matrix",
+    "page_blueprint_name": "Signal Matrix",
+    "title": "Simulatore di Impatto di Investimenti Sostenibili",
+    "tagline": "Configura il Tuo Portafoglio",
+    "description": "Verifica come i tuoi investimenti contribuiscono a un futuro più verde e al contempo generano profitto. Simula l",
+    "feature_prefix": "Modulo",
+    "action": "Usa lo strumento",
+    "cta_primary": "Simula Impatto",
+    "cta_secondary": "Leggi le FAQ",
+    "inputs": [
+      {
+        "id": "amount",
+        "label": "Importo base",
+        "type": "number",
+        "placeholder": "7500",
+        "weight": 1.0
+      },
+      {
+        "id": "duration",
+        "label": "Durata stimata",
+        "type": "number",
+        "placeholder": "12",
+        "weight": 0.42
+      },
+      {
+        "id": "plan",
+        "label": "Livello di servizio",
+        "type": "select",
+        "options": [
+          {
+            "label": "Essenziale",
+            "value": 1.0
+          },
+          {
+            "label": "Performance",
+            "value": 1.18
+          },
+          {
+            "label": "Premium",
+            "value": 1.34
+          }
+        ],
+        "weight": 1.0
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Signal Bento",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Inputs"
+      },
+      {
+        "value": "Risultato consigliato",
+        "label": "Output"
+      }
+    ],
+    "trust_labels": [
+      "Signal Bento",
+      "Simula Impatto",
+      "Risultato consigliato",
+      "Utilità immediata",
+      "Struttura SEO chiara"
+    ],
+    "result_label": "Risultato consigliato",
+    "result_unit": "EUR",
+    "runtime_mode": "generic_calculator",
+    "page_variant": "console",
+    "faq_topic": "Simulatore di Impatto di Investimenti Sostenibili",
+    "faq_entries": [
+      {
+        "question": "Perché usare questo strumento per Simulatore di Impatto di Investimenti Sostenibili?",
+        "answer": "Aiuta a inquadrare rapidamente il bisogno e guida verso una prossima azione chiara nel mercato France."
+      },
+      {
+        "question": "Il risultato è immediato?",
+        "answer": "Sì. L'interfaccia è pensata per restituire una risposta rapida, leggibile e utile dalla prima interazione."
+      },
+      {
+        "question": "La pagina è adatta alla SEO?",
+        "answer": "Sì. La struttura combina utilità, chiarezza editoriale e segnali di fiducia senza sovraccaricare l'esperienza."
+      }
+    ],
+    "seo_paragraphs": [
+      "Questa pagina intercetta un'intenzione forte intorno a Simulatore di Impatto di Investimenti Sostenibili e la trasforma in un'azione misurabile per France.",
+      "La struttura hero-first migliora la chiarezza, riduce la frizione e funziona bene sia su mobile sia su desktop.",
+      "La base resta volutamente leggera per facilitare test, QA continua e varianti SEO ripetibili."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"it\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Simulatore di Impatto di Investimenti Sostenibili | Configura il Tuo Portafoglio</title>\n    <meta name=\"description\" content=\"Verifica come i tuoi investimenti contribuiscono a un futuro più verde e al contempo generano profitto. Simula l\">\n    <style>\n        :root {\n            --color-primary: #1a4d2e; /* Dark green */\n            --color-secondary: #4caf50; /* Medium green */\n            --color-accent: #f7b32b; /* Golden yellow */\n            --color-background: #f0f4f7; /* Light blue-gray */\n            --color-text: #333;\n            --color-light-text: #666;\n            --font-serif: \"Playfair Display\", serif;\n            --font-sans: \"Inter\", sans-serif;\n            --spacing-unit: 1rem;\n        }\n\n        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@700&display=swap');\n\n        body {\n            font-family: var(--font-sans);\n            line-height: 1.6;\n            color: var(--color-text);\n            margin: 0;\n            padding: 0;\n            background-color: var(--color-background);\n            display: flex;\n            flex-direction: column;\n            min-height: 100vh;\n        }\n\n        header {\n            background-color: var(--color-primary);\n            color: white;\n            padding: calc(4 * var(--spacing-unit)) calc(2 * var(--spacing-unit));\n            text-align: center;\n            position: relative;\n            overflow: hidden;\n        }\n\n        header h1 {\n            font-family: var(--font-serif);\n            font-size: 3.5rem;\n            margin: 0;\n            line-height: 1.1;\n            max-width: 900px;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        header p {\n            font-size: 1.25rem;\n            max-width: 800px;\n            margin: var(--spacing-unit) auto 0;\n            font-weight: 300;\n        }\n\n        .container {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: calc(2 * var(--spacing-unit));\n            display: grid;\n            grid-template-columns: 1fr;\n            gap: calc(4 * var(--spacing-unit));\n            flex-grow: 1;\n        }\n\n        .section {\n            background-color: white;\n            padding: calc(3 * var(--spacing-unit));\n            border-radius: 8px;\n            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);\n        }\n\n        .section h2 {\n            font-family: var(--font-serif);\n            font-size: 2.2rem;\n            color: var(--color-primary);\n            margin-top: 0;\n            margin-bottom: calc(1.5 * var(--spacing-unit));\n            text-align: center;\n        }\n\n        .section p {\n            margin-bottom: var(--spacing-unit);\n        }\n\n        form {\n            display: grid;\n            grid-template-columns: 1fr;\n            gap: calc(1.5 * var(--spacing-unit));\n        }\n\n        .form-group {\n            margin-bottom: var(--spacing-unit);\n        }\n\n        label {\n            display: block;\n            margin-bottom: 0.5rem;\n            font-weight: 600;\n            color: var(--color-primary);\n        }\n\n        input[type=\"number\"],\n        select {\n            width: 100%;\n            padding: 0.8rem;\n            border: 1px solid #ccc;\n            border-radius: 4px;\n            box-sizing: border-box;\n            font-family: var(--font-sans);\n            font-size: 1rem;\n            background-color: #fcfcfc;\n        }\n\n        input[type=\"range\"] {\n            width: 100%;\n            -webkit-appearance: none;\n            height: 8px;\n            background: #ddd;\n            outline: none;\n            opacity: 0.7;\n            -webkit-transition: .2s;\n            transition: opacity .2s;\n            border-radius: 5px;\n        }\n\n        input[type=\"range\"]::-webkit-slider-thumb {\n            -webkit-appearance: none;\n            appearance: none;\n            width: 20px;\n            height: 20px;\n            border-radius: 50%;\n            background: var(--color-secondary);\n            cursor: pointer;\n            border: 2px solid white;\n            box-shadow: 0 0 5px rgba(0,0,0,0.2);\n        }\n\n        input[type=\"range\"]::-moz-range-thumb {\n            width: 20px;\n            height: 20px;\n            border-radius: 50%;\n            background: var(--color-secondary);\n            cursor: pointer;\n            border: 2px solid white;\n            box-shadow: 0 0 5px rgba(0,0,0,0.2);\n        }\n\n        #tool-submit {\n            background-color: var(--color-accent);\n            color: var(--color-primary);\n            padding: 1rem 2rem;\n            border: none;\n            border-radius: 50px;\n            font-size: 1.2rem;\n            font-weight: 600;\n            cursor: pointer;\n            transition: background-color 0.3s ease, transform 0.2s ease;\n            display: block;\n            width: fit-content;\n            margin: calc(2 * var(--spacing-unit)) auto 0;\n            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);\n        }\n\n        #tool-submit:hover {\n            background-color: #e6a024;\n            transform: translateY(-2px);\n        }\n\n        #tool-result {\n            margin-top: calc(3 * var(--spacing-unit));\n            padding: calc(2 * var(--spacing-unit));\n            background-color: #e8f5e9; /* Light green background for results */\n            border-left: 5px solid var(--color-secondary);\n            border-radius: 8px;\n            display: none; /* Hidden by default */\n        }\n\n        #tool-result h3 {\n            font-family: var(--font-serif);\n            color: var(--color-primary);\n            font-size: 1.8rem;\n            margin-top: 0;\n            margin-bottom: var(--spacing-unit);\n            text-align: center;\n        }\n\n        .result-group {\n            margin-bottom: calc(1.5 * var(--spacing-unit));\n            padding-bottom: var(--spacing-unit);\n            border-bottom: 1px dashed #cfd8dc;\n        }\n\n        .result-group:last-child {\n            border-bottom: none;\n        }\n\n        .result-group h4 {\n            font-size: 1.3rem;\n            color: var(--color-secondary);\n            margin-bottom: 0.8rem;\n            text-align: center;\n        }\n\n        .result-group ul {\n            list-style: none;\n            padding: 0;\n            margin: 0;\n        }\n\n        .result-group li {\n            background-color: white;\n            padding: 0.8rem 1.2rem;\n            margin-bottom: 0.5rem;\n            border-radius: 4px;\n            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);\n            display: flex;\n            align-items: center;\n            justify-content: space-between;\n            font-weight: 400;\n        }\n        .result-group li strong {\n            color: var(--color-primary);\n        }\n\n        .kpi-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n            gap: var(--spacing-unit);\n            margin-top: calc(1.5 * var(--spacing-unit));\n            text-align: center;\n        }\n\n        .kpi-card {\n            background-color: var(--color-primary);\n            color: white;\n            padding: var(--spacing-unit);\n            border-radius: 6px;\n            box-shadow: 0 2px 8px rgba(0,0,0,0.15);\n        }\n\n        .kpi-card .value {\n            font-family: var(--font-serif);\n            font-size: 2.5rem;\n            font-weight: 700;\n            color: var(--color-accent);\n            margin-bottom: 0.2rem;\n        }\n        .kpi-card .label {\n            font-size: 0.9rem;\n            font-weight: 300;\n        }\n\n        .cta-section {\n            text-align: center;\n            padding: calc(3 * var(--spacing-unit)) 0;\n            background-color: var(--color-primary);\n            color: white;\n            margin-top: calc(4 * var(--spacing-unit));\n        }\n\n        .cta-section h2 {\n            color: var(--color-accent);\n            font-family: var(--font-serif);\n            margin-bottom: var(--spacing-unit);\n        }\n\n        .cta-section p {\n            font-size: 1.15rem;\n            max-width: 700px;\n            margin: 0 auto calc(2 * var(--spacing-unit));\n        }\n\n        .cta-button {\n            background-color: var(--color-accent);\n            color: var(--color-primary);\n            padding: 1rem 2.5rem;\n            border: none;\n            border-radius: 50px;\n            font-size: 1.1rem;\n            font-weight: 600;\n            cursor: pointer;\n            transition: background-color 0.3s ease, transform 0.2s ease;\n            text-decoration: none;\n            display: inline-block;\n            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);\n        }\n\n        .cta-button:hover {\n            background-color: #e6a024;\n            transform: translateY(-2px);\n        }\n\n        .seo-text {\n            padding: calc(4 * var(--spacing-unit)) calc(2 * var(--spacing-unit));\n            background-color: var(--color-background);\n            color: var(--color-light-text);\n            font-size: 0.9rem;\n            line-height: 1.8;\n            text-align: center;\n        }\n\n        .seo-text h3 {\n            font-family: var(--font-serif);\n            color: var(--color-primary);\n            font-size: 1.5rem;\n            margin-bottom: var(--spacing-unit);\n        }\n\n        .seo-text p {\n            margin-bottom: var(--spacing-unit);\n            max-width: 900px;\n            margin-left: auto;\n            margin-right: auto;\n        }\n\n        .seo-text a {\n            color: var(--color-secondary);\n            text-decoration: none;\n        }\n\n        .seo-text a:hover {\n            text-decoration: underline;\n        }\n\n        footer {\n            background-color: var(--color-primary);\n            color: white;\n            text-align: center;\n            padding: var(--spacing-unit) calc(2 * var(--spacing-unit));\n            font-size: 0.85rem;\n            margin-top: auto; /* Push footer to the bottom */\n        }\n\n        @media (min-width: 768px) {\n            .container {\n                grid-template-columns: 2fr 1fr;\n                align-items: start;\n            }\n            form {\n                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            }\n            .full-width {\n                grid-column: 1 / -1;\n            }\n            header h1 {\n                font-size: 4.5rem;\n            }\n            #tool-result {\n                grid-column: 1 / -1;\n            }\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://simulatore-di-impatto-di-investimenti-sostenibili-2.onrender.com\">\n    <meta property=\"og:title\" content=\"Simulatore di Impatto di Investimenti Sostenibili\">\n    <meta property=\"og:description\" content=\"Verifica come i tuoi investimenti contribuiscono a un futuro più verde e al contempo generano profitto. Simula l\">\n    <meta property=\"og:url\" content=\"https://simulatore-di-impatto-di-investimenti-sostenibili-2.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Simulatore di Impatto di Investimenti Sostenibili\", \"description\": \"Verifica come i tuoi investimenti contribuiscono a un futuro più verde e al contempo generano profitto. Simula l\", \"url\": \"https://simulatore-di-impatto-di-investimenti-sostenibili-2.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"simulatore-di-impatto-di-investimenti-sostenibili-2\" data-runtime-mode=\"generic_calculator\">\n    <header>\n        <h1>Simulatore di Impatto di Investimenti Sostenibili</h1>\n        <p>Verifica come i tuoi investimenti contribuiscono a un futuro più verde e al contempo generano profitto. Esplora il potenziale dei portafogli ESG europei.</p>\n    </header>\n\n    <div class=\"container\">\n        <section class=\"section\">\n            <h2>Configura il Tuo Portafoglio</h2>\n            <p>Inserisci i parametri del tuo investimento per visualizzare l'impatto finanziario ed etico.</p>\n            <form id=\"tool-form\">\n                <div class=\"form-group\">\n                    <label for=\"capital\">Capitale Iniziale (€)</label>\n                    <input type=\"number\" id=\"capital\" value=\"10000\" min=\"100\" step=\"100\" required>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"duration\">Durata Investimento (anni)</label>\n                    <input type=\"number\" id=\"duration\" value=\"5\" min=\"1\" max=\"30\" required>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"risk\">Propensione al Rischio</label>\n                    <input type=\"range\" id=\"risk\" min=\"1\" max=\"5\" value=\"3\">\n                    <small>Basso (1) - Alto (5)</small>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"esgFocus\">Priorità ESG</label>\n                    <select id=\"esgFocus\">\n                        <option value=\"balanced\">Equilibrato (E, S, G)</option>\n                        <option value=\"environmental\">Ambientale (E)</option>\n                        <option value=\"social\">Sociale (S)</option>\n                        <option value=\"governance\">Governance (G)</option>\n                    </select>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"regionFocus\">Focus Geografico</label>\n                    <select id=\"regionFocus\">\n                        <option value=\"europe\">Europa (generale)</option>\n                        <option value=\"france\">Francia (approfondito)</option>\n                        <option value=\"germany\">Germania</option>\n                        <option value=\"italy\">Italia</option>\n                    </select>\n                </div>\n                <button type=\"submit\" id=\"tool-submit\">Simula Impatto</button>\n            </form>\n        </section>\n\n        <section class=\"section\" id=\"tool-result\">\n            <h3 id=\"result-headline\">Risultati della Simulazione</h3>\n\n            <div class=\"kpi-grid\">\n                <div class=\"kpi-card\">\n                    <div class=\"value\" id=\"result-roi\">0%</div>\n                    <div class=\"label\">ROI Stimato</div>\n                </div>\n                <div class=\"kpi-card\">\n                    <div class=\"value\" id=\"result-co2\">0kg</div>\n                    <div class=\"label\">CO2 Evitata</div>\n                </div>\n                <div class=\"kpi-card\">\n                    <div class=\"value\" id=\"result-social\">Basso</div>\n                    <div class=\"label\">Impatto Sociale</div>\n                </div>\n            </div>\n\n            <div class=\"result-group\">\n                <h4>Metriche Finanziarie Chiave</h4>\n                <ul>\n                    <li>Valore Finale Stimato: <strong id=\"result-final-value\">€0</strong></li>\n                    <li>Volatilità Attesa: <strong id=\"result-volatility\">Bassa</strong></li>\n                    <li>Ritorno Medio Annuo: <strong id=\"result-annual-return\">0%</strong></li>\n                </ul>\n            </div>\n\n            <div class=\"result-group\">\n                <h4>Metriche di Sostenibilità</h4>\n                <ul>\n                    <li>Riduzione Emissioni CO2: <strong id=\"result-co2-reduction\">0 kg CO2eq</strong></li>\n                    <li>Indice di Impatto Sociale: <strong id=\"result-social-index\">Basso</strong></li>\n                    <li>Indice di Governance: <strong id=\"result-governance-index\">Alto</strong></li>\n                    <li>Numero di Aziende ESG: <strong id=\"result-esg-companies\">0</strong></li>\n                </ul>\n            </div>\n            <p style=\"font-size: 0.9em; text-align: center; color: var(--color-light-text);\">\n                <em>Le simulazioni sono indicative e basate su dati storici e modelli predittivi. Non costituiscono una garanzia di performance future.</em>\n            </p>\n            <button class=\"cta-button\" data-affiliate-slot=\"simulation-cta\" style=\"margin-top: 2rem;\">Esplora Opzioni di Investimento</button>\n        </section>\n    </div>\n\n    <section class=\"cta-section\">\n        <h2>Pronto a Investire nel Futuro?</h2>\n        <p>Scopri come trasformare i tuoi risparmi in un'opportunità di crescita sia finanziaria che etica. Il nostro simulatore ti offre una guida chiara.</p>\n        <a href=\"#\" class=\"cta-button\" data-affiliate-slot=\"main-cta\">Inizia Ora la Tua Trasformazione</a>\n    </section>\n\n    <section class=\"seo-text\">\n        <h3>Investimenti Sostenibili: Guida Completa per il Mercato Italiano</h3>\n        <p>Sei alla ricerca di un modo per far crescere il tuo capitale contribuendo al contempo a un futuro più sostenibile? Il nostro <strong>simulatore di impatto di investimenti sostenibili</strong> è lo strumento che fa per te. Ti permette di confrontare l'impatto finanziario (come il ROI e la volatilità) con metriche ESG (Ambientali, Sociali, di Governance) cruciali, inclusa la riduzione delle emissioni di CO2 e l'impatto sociale generato. Che tu sia interessato a <a href=\"#\">investimenti ESG in Italia</a>, portafogli verdi europei o specificamente aziende francesi con un forte impegno sostenibile, la nostra piattaforma offre un'analisi dettagliata.</p>\n        <p>Scopri il potenziale del tuo <a href=\"#\">portafoglio di investimento etico</a>, calcola il ROI stimato e visualizza come i tuoi soldi possono contribuire a un mondo migliore. Il nostro strumento è ideale per chi cerca <a href=\"#\">investimenti responsabili</a>, vuole analizzare i <a href=\"#\">criteri ESG per gli investimenti</a> o semplicemente comprendere meglio l'impatto delle proprie scelte finanziarie sulla sostenibilità. Ottieni una simulazione personalizzata basata sul capitale, la durata e la propensione al rischio, con un focus su settori come l'energia rinnovabile, l'economia circolare e le imprese ad alto impatto sociale. Investire in modo sostenibile non è mai stato così chiaro e accessibile.</p>\n    </section>\n\n    <footer>\n        &copy; 2023 Tutti i diritti riservati. Simulatore di Impatto.\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const capital = parseFloat(document.getElementById('capital').value);\n            const duration = parseInt(document.getElementById('duration').value);\n            const risk = parseInt(document.getElementById('risk').value);\n            const esgFocus = document.getElementById('esgFocus').value;\n            const regionFocus = document.getElementById('regionFocus').value;\n\n            // Simple simulation logic\n            let baseReturn = capital * 0.03 * duration; // 3% base annual return\n            let volatilityFactor = 0;\n            let co2Factor = 0;\n            let socialFactor = 0;\n            let governanceFactor = 0;\n            let esgCompanies = 0;\n\n            // Adjust based on risk\n            if (risk === 1) { // Low risk\n                baseReturn *= 0.8;\n                volatilityFactor = 0.5;\n            } else if (risk === 3) { // Medium risk\n                baseReturn *= 1;\n                volatilityFactor = 1;\n            } else if (risk === 5) { // High risk\n                baseReturn *= 1.3;\n                volatilityFactor = 1.5;\n            }\n\n            // Adjust based on ESG focus\n            switch (esgFocus) {\n                case 'environmental':\n                    baseReturn *= 1.05; // Slightly better return for env focused?\n                    co2Factor = 1.5;\n                    socialFactor = 0.8;\n                    governanceFactor = 1.0;\n                    esgCompanies = Math.floor(Math.random() * 5) + 15;\n                    break;\n                case 'social':\n                    baseReturn *= 1.02;\n                    co2Factor = 0.9;\n                    socialFactor = 1.8;\n                    governanceFactor = 1.1;\n                    esgCompanies = Math.floor(Math.random() * 5) + 12;\n                    break;\n                case 'governance':\n                    baseReturn *= 1.03;\n                    co2Factor = 1.0;\n                    socialFactor = 1.0;\n                    governanceFactor = 1.7;\n                    esgCompanies = Math.floor(Math.random() * 5) + 10;\n                    break;\n                case 'balanced':\n                default:\n                    baseReturn *= 1.04;\n                    co2Factor = 1.2;\n                    socialFactor = 1.2;\n                    governanceFactor = 1.2;\n                    esgCompanies = Math.floor(Math.random() * 5) + 18;\n                    break;\n            }\n\n            // Adjust based on region focus (simple representation)\n            if (regionFocus === 'france') {\n                baseReturn *= 1.08; // Assuming France has good growth\n                co2Factor *= 1.1; // Strong environmental push\n            } else if (regionFocus === 'italy') {\n                baseReturn *= 1.03;\n                socialFactor *= 1.1;\n            } else if (regionFocus === 'germany') {\n                baseReturn *= 1.06;\n                governanceFactor *= 1.1;\n            }\n\n            const finalValue = capital + baseReturn + (Math.random() * capital * 0.05); // Add a little randomness\n            const roi = ((finalValue - capital) / capital) * 100;\n            const annualReturn = roi / duration;\n            const co2Reduced = Math.round(capital / 1000 * duration * 50 * co2Factor); // kg CO2 equivalent\n            const socialImpact = ['Basso', 'Moderato', 'Significativo', 'Molto Significativo'][Math.min(3, Math.floor(socialFactor * 1.5))];\n            const volatility = ['Bassa', 'Moderata', 'Media', 'Alta', 'Molto Alta'][Math.min(4, Math.floor(risk * volatilityFactor / 1.5))];\n            const governanceIndex = ['Media', 'Buona', 'Eccellente'][Math.min(2, Math.floor(governanceFactor))];\n\n\n            document.getElementById('result-roi').textContent = roi.toFixed(1) + '%';\n            document.getElementById('result-co2').textContent = co2Reduced.toLocaleString('it-IT') + 'kg';\n            document.getElementById('result-social').textContent = socialImpact;\n            document.getElementById('result-final-value').textContent = '€' + finalValue.toLocaleString('it-IT', { minimumFractionDigits: 2, maximumFractionDigits: 2 });\n            document.getElementById('result-volatility').textContent = volatility;\n            document.getElementById('result-annual-return').textContent = annualReturn.toFixed(1) + '%';\n            document.getElementById('result-co2-reduction').textContent = co2Reduced.toLocaleString('it-IT') + ' kg CO2eq';\n            document.getElementById('result-social-index').textContent = socialImpact;\n            document.getElementById('result-governance-index').textContent = governanceIndex;\n            document.getElementById('result-esg-companies').textContent = esgCompanies;\n\n            document.getElementById('tool-result').style.display = 'block';\n            document.getElementById('tool-result').scrollIntoView({ behavior: 'smooth' });\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"Result area was not found.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Native form submission updated the result area.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"Result area did not render usable output.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Primary tool form was not found.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
