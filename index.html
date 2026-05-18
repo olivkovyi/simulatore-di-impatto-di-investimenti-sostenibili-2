@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulatore di Impatto di Investimenti Sostenibili | Configura il Tuo Portafoglio</title>
+    <title>Simulatore di Impatto di Investimenti Sostenibili</title>
     <meta name="description" content="Verifica come i tuoi investimenti contribuiscono a un futuro più verde e al contempo generano profitto. Simula l">
     <style>
         :root {
@@ -364,7 +364,7 @@
     <meta property="og:type" content="website">
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Simulatore di Impatto di Investimenti Sostenibili", "description": "Verifica come i tuoi investimenti contribuiscono a un futuro più verde e al contempo generano profitto. Simula l", "url": "https://simulatore-di-impatto-di-investimenti-sostenibili-2.onrender.com", "applicationCategory": "UtilityApplication", "operatingSystem": "Web Browser"}</script>
 </head>
-<body data-site-slug="simulatore-di-impatto-di-investimenti-sostenibili-2" data-runtime-mode="generic_calculator">
+<body data-site-slug="simulatore-di-impatto-di-investimenti-sostenibili-2" data-runtime-mode="generic_calculator" data-site-slug="simulatore-di-impatto-di-investimenti-sostenibili-2" data-runtime-mode="imported_static">
     <header>
         <h1>Simulatore di Impatto di Investimenti Sostenibili</h1>
         <p>Verifica come i tuoi investimenti contribuiscono a un futuro più verde e al contempo generano profitto. Esplora il potenziale dei portafogli ESG europei.</p>
@@ -465,7 +465,7 @@
         <p>Scopri il potenziale del tuo <a href="#">portafoglio di investimento etico</a>, calcola il ROI stimato e visualizza come i tuoi soldi possono contribuire a un mondo migliore. Il nostro strumento è ideale per chi cerca <a href="#">investimenti responsabili</a>, vuole analizzare i <a href="#">criteri ESG per gli investimenti</a> o semplicemente comprendere meglio l'impatto delle proprie scelte finanziarie sulla sostenibilità. Ottieni una simulazione personalizzata basata sul capitale, la durata e la propensione al rischio, con un focus su settori come l'energia rinnovabile, l'economia circolare e le imprese ad alto impatto sociale. Investire in modo sostenibile non è mai stato così chiaro e accessibile.</p>
     </section>
 
-    <footer>
+    <section class="growth-anchor-block" data-growth-affiliate="anchor" style="margin:20px 0 0;padding:14px 16px;border:1px solid rgba(127,127,127,.18);border-radius:16px;background:rgba(127,127,127,.06)"><p class="growth-anchor-copy" style="margin:0;line-height:1.7">If you want a broader perspective on Simulatore di Impatto di Investimenti Sostenibili, you can also check <a href="https://fowlplay-it.com/">Fowl Play Accesso</a> as an additional comparison point.</p></section><footer>
         &copy; 2023 Tutti i diritti riservati. Simulatore di Impatto.
     </footer>
 
@@ -551,7 +551,6 @@
             const socialImpact = ['Basso', 'Moderato', 'Significativo', 'Molto Significativo'][Math.min(3, Math.floor(socialFactor * 1.5))];
             const volatility = ['Bassa', 'Moderata', 'Media', 'Alta', 'Molto Alta'][Math.min(4, Math.floor(risk * volatilityFactor / 1.5))];
             const governanceIndex = ['Media', 'Buona', 'Eccellente'][Math.min(2, Math.floor(governanceFactor))];
-
 
             document.getElementById('result-roi').textContent = roi.toFixed(1) + '%';
             document.getElementById('result-co2').textContent = co2Reduced.toLocaleString('it-IT') + 'kg';
@@ -850,6 +849,23 @@
   } else {
     window.setTimeout(runSmoke, 60);
   }
+})();
+</script>
+<script id="farmbuilder-affiliate-runtime">
+(function () {
+  document.addEventListener("click", function (event) {
+    const node = event.target.closest("[data-affiliate-link]");
+    if (!node) return;
+    const url = node.getAttribute("data-affiliate-link");
+    if (!url) return;
+    window.setTimeout(function () {
+      try {
+        window.open(url, "_blank");
+      } catch (error) {
+        window.location.href = url;
+      }
+    }, 80);
+  }, true);
 })();
 </script>
 </body>
