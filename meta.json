@@ -1,27 +1,38 @@
 {
+  "slug": "simulatore-di-impatto-di-investimenti-sostenibili-2",
   "name": "Simulatore di Impatto di Investimenti Sostenibili",
   "description": "Verifica come i tuoi investimenti contribuiscono a un futuro più verde e al contempo generano profitto. Simula l",
   "theme": "calculator",
-  "design_theme": "mechanical-botanical",
-  "structure_preset": "split-command",
-  "render_direction": "signal-bento",
-  "page_blueprint": "signal-matrix",
+  "design_theme": "imported-source",
+  "structure_preset": "external-source",
+  "render_direction": "imported-source",
+  "page_blueprint": "imported-source",
   "language": "it",
   "country": "IT",
   "url": null,
   "expected_url": "https://simulatore-di-impatto-di-investimenti-sostenibili-2.onrender.com",
-  "created": "2026-05-15T00:45:29.749670+00:00",
+  "created": "2026-05-18T02:04:15.913738+00:00",
   "owner_user_id": "user-1774822953462",
   "owner_username": "admin",
   "owner_display_name": "Administrator",
   "status": "generated",
-  "run_id": "run-1778805800831",
-  "external_site_request_id": null,
-  "external_client_ref": null,
-  "external_source_label": null,
-  "source_type": "generated",
+  "run_id": "run-1779069788973",
   "publish_target": "render",
   "mode": "production",
+  "source_type": "imported",
+  "import_source_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1779069739216/simulatore-di-impatto-di-investimenti-sostenibili-2",
+  "import_root_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1779069739216/simulatore-di-impatto-di-investimenti-sostenibili-2",
+  "import_resolution_note": null,
+  "analysis": {
+    "model": "preserved-analysis",
+    "summary": "Verifica come i tuoi investimenti contribuiscono a un futuro più verde e al contempo generano profitto. Simula l",
+    "notes": "Growth module republish of an updated local artifact.",
+    "characteristics": [
+      "imported static site",
+      "ready file deploy",
+      "tool"
+    ]
+  },
   "github": {
     "status": "pending"
   },
@@ -32,13 +43,210 @@
     "status": "pending"
   },
   "features": [
-    "Hero pattern: split",
-    "Proof module: metrics",
-    "Design theme: Mechanical Botanical",
-    "Render direction: Signal Bento",
-    "Page blueprint: Signal Matrix",
-    "Runtime mode: generic_calculator",
-    "Generation mode: direct_html",
-    "Artifact rendered, awaiting QA and deployment"
-  ]
+    "Imported from ready static files",
+    "AI analysis model: preserved-analysis",
+    "imported static site",
+    "ready file deploy",
+    "tool"
+  ],
+  "growth": {
+    "affiliate": {
+      "status": "ready",
+      "updated_at": "2026-05-18T02:02:50.059088+00:00",
+      "modes": [
+        "anchor_text"
+      ],
+      "links": 1,
+      "insertions": 1,
+      "review": {
+        "status": "pass",
+        "score": 84,
+        "summary": "A safer anchor-text fallback was applied as a compact contextual block near the bottom of the page.",
+        "issues": []
+      }
+    }
+  },
+  "previous_live_state": {
+    "url": "https://simulatore-di-impatto-di-investimenti.onrender.com",
+    "expected_url": "https://simulatore-di-impatto-di-investimenti.onrender.com",
+    "requested_url": "https://simulatore-di-impatto-di-investimenti.onrender.com",
+    "github": {
+      "status": "published",
+      "repo_name": "simulatore-di-impatto-di-investimenti-sostenibili-2",
+      "repo_url": "https://github.com/olivkovyi/simulatore-di-impatto-di-investimenti-sostenibili-2",
+      "updated_at": 1778805972
+    },
+    "deployment": {
+      "status": "ready",
+      "provider": "render",
+      "service_id": "srv-d836qgpkh4rs73a9qnc0",
+      "project_name": "simulatore-di-impatto-di-investimenti-sostenibili-2",
+      "requested_project_name": null,
+      "deployment_id": "dep-d836qh1kh4rs73a9qoeg",
+      "deployment_url": "https://simulatore-di-impatto-di-investimenti.onrender.com",
+      "public_url": "https://simulatore-di-impatto-di-investimenti.onrender.com",
+      "expected_public_url": "https://simulatore-di-impatto-di-investimenti.onrender.com",
+      "dashboard_url": "https://dashboard.render.com/static/srv-d836qgpkh4rs73a9qnc0",
+      "ready_state": "live",
+      "target": "production",
+      "updated_at": 1778805985,
+      "requested_public_url": "https://simulatore-di-impatto-di-investimenti.onrender.com",
+      "url_source": "alias"
+    },
+    "qa": {
+      "status": "pass",
+      "local": {
+        "status": "pass",
+        "checks": [
+          {
+            "name": "index_exists",
+            "status": "pass",
+            "detail": "index.html exists"
+          },
+          {
+            "name": "meta_exists",
+            "status": "pass",
+            "detail": "meta.json exists"
+          },
+          {
+            "name": "robots_exists",
+            "status": "pass",
+            "detail": "robots.txt exists"
+          },
+          {
+            "name": "has_title",
+            "status": "pass",
+            "detail": "HTML contains a title tag"
+          },
+          {
+            "name": "has_viewport",
+            "status": "pass",
+            "detail": "HTML contains a mobile viewport meta tag"
+          },
+          {
+            "name": "has_canonical",
+            "status": "pass",
+            "detail": "HTML contains a canonical URL"
+          },
+          {
+            "name": "bundle_size",
+            "status": "pass",
+            "detail": "Generated HTML stays below 250KB"
+          },
+          {
+            "name": "functional_qa_hook",
+            "status": "pass",
+            "detail": "Generated HTML includes the browser QA hook used before deploy."
+          },
+          {
+            "name": "inline_script_syntax",
+            "status": "pass",
+            "detail": "Inline JavaScript syntax check passed."
+          },
+          {
+            "name": "robots_google_only",
+            "status": "pass",
+            "detail": "robots.txt allows only Google crawlers and blocks all other bots."
+          },
+          {
+            "name": "no_meta_noindex",
+            "status": "pass",
+            "detail": "Generated HTML does not inject a noindex robots meta tag."
+          },
+          {
+            "name": "no_internal_branding",
+            "status": "pass",
+            "detail": "Generated site does not leak internal platform branding or internal product naming."
+          },
+          {
+            "name": "desktop_layout_overlap",
+            "status": "pass",
+            "detail": "Editorial desktop layout avoids negative overlap offsets on the tool panel"
+          }
+        ],
+        "checked_at": 1779069770
+      },
+      "functional": {
+        "status": "pass",
+        "detail": "desktop: Native form submission updated the result area. | mobile: Native form submission updated the result area.",
+        "target_url": "http://127.0.0.1:37095/index.html?__qa=functional",
+        "mode": "native-form",
+        "headline": "Risultati della Simulazione",
+        "primary_url": "",
+        "desktop": {
+          "status": "pass",
+          "detail": "Native form submission updated the result area.",
+          "target_url": "http://127.0.0.1:37095/index.html?__qa=functional",
+          "viewport": "desktop",
+          "mode": "native-form",
+          "headline": "Risultati della Simulazione",
+          "primary_url": "",
+          "reported_viewport": "desktop",
+          "updated_at": 1779069771
+        },
+        "mobile": {
+          "status": "pass",
+          "detail": "Native form submission updated the result area.",
+          "target_url": "http://127.0.0.1:37095/index.html?__qa=functional",
+          "viewport": "mobile",
+          "mode": "native-form",
+          "headline": "Risultati della Simulazione",
+          "primary_url": "",
+          "reported_viewport": "mobile",
+          "updated_at": 1779069772
+        },
+        "updated_at": 1779069772
+      },
+      "remote": {
+        "status": "pass",
+        "checks": [
+          {
+            "name": "remote_200",
+            "status": "pass",
+            "detail": "Remote deployment returned HTTP 200"
+          },
+          {
+            "name": "remote_title",
+            "status": "pass",
+            "detail": "Remote HTML contains a title tag"
+          },
+          {
+            "name": "remote_body",
+            "status": "pass",
+            "detail": "Remote HTML contains a body tag"
+          }
+        ],
+        "checked_at": 1779069772
+      },
+      "visual": {
+        "status": "pass",
+        "desktop": {
+          "status": "pass",
+          "path": "/var/lib/utility-site-studio/static/generated-qa/simulatore-di-impatto-di-investimenti-sostenibili-2/simulatore-di-impatto-di-investimenti-sostenibili-2-desktop.png",
+          "detail": "1440x960 screenshot captured.",
+          "relative_url": "/static/generated-qa/simulatore-di-impatto-di-investimenti-sostenibili-2/simulatore-di-impatto-di-investimenti-sostenibili-2-desktop.png"
+        },
+        "mobile": {
+          "status": "pass",
+          "path": "/var/lib/utility-site-studio/static/generated-qa/simulatore-di-impatto-di-investimenti-sostenibili-2/simulatore-di-impatto-di-investimenti-sostenibili-2-mobile.png",
+          "detail": "430x932 screenshot captured.",
+          "relative_url": "/static/generated-qa/simulatore-di-impatto-di-investimenti-sostenibili-2/simulatore-di-impatto-di-investimenti-sostenibili-2-mobile.png"
+        },
+        "updated_at": 1779069775
+      },
+      "lighthouse": {
+        "status": "pass",
+        "scores": {
+          "performance": 100,
+          "accessibility": 85,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "report_path": "/var/lib/utility-site-studio/data/qa/lighthouse/simulatore-di-impatto-di-investimenti-sostenibili-2-lighthouse.json",
+        "updated_at": 1779069788
+      },
+      "qa_live_url": "https://simulatore-di-impatto-di-investimenti.onrender.com",
+      "updated_at": "2026-05-18T02:03:08.763912+00:00"
+    }
+  }
 }
